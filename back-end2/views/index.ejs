@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+     <div class="container">
+        <h1 class="text-center">Multiply form fields upload multer</h1>
+        <form action="/uploadfile" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="file1">Upload File1</label>
+        <input type="file" name="file1"  class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="file1">Upload File2</label>
+        <input type="file" name="file2" multiple  class="form-control" required>
+    </div>
+ <div class="form-group">
+    <button class="btn btn-danger btn-clock">
+        upload file
+    </button>
+ </div>
+        </form>
+     </div>
+</body>
+</html>
